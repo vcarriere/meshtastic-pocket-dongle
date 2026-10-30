@@ -1,6 +1,7 @@
 #include "configuration.h"
 #include "main.h"
 #include "memory/MemAudit.h"
+
 #if USE_TFTDISPLAY
 
 #if ARCH_PORTDUINO
