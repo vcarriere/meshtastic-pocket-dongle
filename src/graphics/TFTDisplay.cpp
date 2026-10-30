@@ -139,6 +139,9 @@ static LGFX *tft = nullptr;
 #endif
 
 #if defined(ST7735S)
+// Match the library implementation's base class before loading optional filesystem helpers.
+#include <lgfx/v1/LGFXBase.hpp>
+
 #include <LovyanGFX.hpp> // Graphics and font library for ST7735 driver chip
 
 #ifndef TFT_INVERT
