@@ -121,6 +121,8 @@
 #define HW_VENDOR meshtastic_HardwareModel_ME25LS01_4Y10TD
 #elif defined(MS24SF1)
 #define HW_VENDOR meshtastic_HardwareModel_MS24SF1
+#elif defined(NODARA)
+#define HW_VENDOR meshtastic_HardwareModel_NODARA
 #elif defined(PRIVATE_HW) || defined(FEATHER_DIY)
 #define HW_VENDOR meshtastic_HardwareModel_PRIVATE_HW
 #elif defined(HELTEC_T114)
@@ -147,6 +149,10 @@
 #define HW_VENDOR meshtastic_HardwareModel_MUZI_BASE
 #elif defined(HELTEC_MESH_TOWER_V2)
 #define HW_VENDOR meshtastic_HardwareModel_HELTEC_MESH_TOWER_V2
+#elif defined(HELTEC_MESH_NODE_T096)
+#define HW_VENDOR meshtastic_HardwareModel_HELTEC_MESH_NODE_T096
+#elif defined(HELTEC_RC52)
+#define HW_VENDOR meshtastic_HardwareModel_HELTEC_RC52
 #else
 #define HW_VENDOR meshtastic_HardwareModel_NRF52_UNKNOWN
 #endif
